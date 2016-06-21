@@ -1,6 +1,6 @@
 {
   "name": "proxy-pumpify",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "pump streams and also proxy non-stream methods to source or destination",
   "main": "index.js",
   "scripts": {
