@@ -70,6 +70,7 @@ function createProxyPumpify (objectMode) {
 function getBoundMethods (obj, methodNames) {
   return methodNames.reduce(function (memo, methodName) {
     var method = obj[methodName]
+    /* istanbul ignore next */
     if (typeof method === 'function') {
       memo[methodName] = {
         configurable: true,
